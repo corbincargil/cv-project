@@ -12,11 +12,37 @@ class DisplayContainer extends Component {
     render(){
         return (
             <div className='display-container'>
-                <GenDisplayContainer />
+                <GenDisplayContainer 
+                    name={this.props.name}
+                    email={this.props.email}
+                    phone={this.props.phone}
+                    birth={this.props.birth}
+                />
                 <div className="divider"></div>
-                <EduDisplayContainer />
+                <EduDisplayContainer 
+                    school={this.props.school}
+                    schoolType={this.props.schoolType}
+                    startDate={this.props.startDate}
+                    endDate={this.props.endDate}
+                    major={this.props.major}
+                    hasMinor={this.props.hasMinor}
+                    minor={this.props.minor}
+                />
                 <div className="divider"></div>
-                <PracDisplayContainer />
+                <PracDisplayContainer 
+                    company={this.props.company}
+                    position={this.props.position}
+                    description={this.props.description}
+                    workStart={this.props.workStart}
+                    workEnd={this.props.workEnd}
+                    current={this.props.current}
+                    handleCompany={this.props.handleCompany}
+                    handlePosition={this.props.handlePosition}
+                    handleDescription={this.props.handleDescription}
+                    handleWorkStart={this.props.handleWorkStart}
+                    handleWorkEnd={this.props.handleWorkEnd}
+                    handleCurrent={this.props.handleCurrent}
+                />
             </div>
         )
     }

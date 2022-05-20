@@ -10,10 +10,10 @@ class GenDisplayContainer extends Component {
         return (
             <div className='display-box'>
             <h2>General Information</h2>
-            <p><strong>Full Name: </strong> John Doe</p>
-            <p><strong>Email Address: </strong> jdoe@gmail.com</p>
-            <p><strong>Phone Number: </strong> (123) 456-7890</p>
-            <p><strong>Date of Birth: </strong> 5/20/2022</p>
+            <p><strong>Full Name: </strong> {this.props.name}</p>
+            <p><strong>Email Address: </strong> {this.props.email}</p>
+            <p><strong>Phone Number: </strong> {this.props.phone}</p>
+            <p><strong>Date of Birth: </strong> {this.props.birth}</p>
 
             </div>
         )

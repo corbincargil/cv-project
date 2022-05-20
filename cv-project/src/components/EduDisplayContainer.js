@@ -10,11 +10,12 @@ class EduDisplayContainer extends Component {
         return (
             <div className='display-box'>
             <h2>Educational Experience</h2>
-            <p><strong>University: </strong> Johns Hopkins University</p>
-            <p><strong>Start Date: </strong> Fall 2015</p>
-            <p><strong>End Date: </strong> Fall 2019</p>
-            <p><strong>Major/Discipline: </strong> Mechanical Engineering</p>
-            <p><strong>Minor: </strong> Biomechanical Engineering</p>
+            <p><strong>School: </strong> {this.props.school}</p>
+            <p><strong>Type: </strong> {this.props.schoolType}</p>
+            <p><strong>Start Date: </strong> {this.props.startDate}</p>
+            <p><strong>End Date: </strong> {this.props.endDate}</p>
+            <p><strong>Major/Discipline: </strong> {this.props.major}</p>
+            <p><strong>Minor: </strong> {this.props.minor}</p>
 
 
 

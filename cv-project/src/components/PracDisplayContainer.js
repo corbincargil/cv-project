@@ -10,11 +10,11 @@ class PracDisplayContainer extends Component {
         return (
             <div className='display-box'>
             <h2>Practical Experience</h2>
-            <p><strong>Company: </strong> Your Company Name</p>
-            <p><strong>Position: </strong> Lead Engineer</p>
-            <p><strong>Start Date: </strong> Jan. 1, 2015</p>
-            <p><strong>End Date: </strong> Dec. 31, 2019</p>
-            <p><strong>Description: </strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellat libero molestiae accusantium. Dolorem tempore itaque, distinctio fugit debitis nam consequuntur dolor recusandae ullam minus necessitatibus nemo? Molestias, obcaecati laudantium.</p>
+            <p><strong>Company: </strong> {this.props.company}</p>
+            <p><strong>Position: </strong> {this.props.position}</p>
+            <p><strong>Start: </strong> {this.props.workStart}</p>
+            <p><strong>End: </strong> {this.props.workEnd}</p>
+            <p><strong>Description: </strong> {this.props.description}</p>
                 
 
             </div>
