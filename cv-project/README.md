@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live demo: 
+The demo can be accessed here: https://corbincargil.github.io/cv-project/
+
 ## Available Scripts
 
 In the project directory, you can run:
